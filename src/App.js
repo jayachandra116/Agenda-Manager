@@ -113,7 +113,7 @@ class App extends Component {
         view: state.view === "add" ? "view" : "add",
       };
     });
-  };
+  }
 
   handleAddNewTopic = (e) => {
     e.preventDefault();
